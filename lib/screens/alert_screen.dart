@@ -89,7 +89,7 @@ class AlertScreen extends StatelessWidget {
                 child: Text("Mostrar Alerta", style: TextStyle(fontSize: 20)),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => Platform.isAndroid
                   ? displayDialogIOS(context)
